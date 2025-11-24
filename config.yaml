@@ -1,0 +1,9 @@
+title: IPSN COP WES Training
+description: A GitHub Pages-powered IPSN COP WES Training 
+baseurl: ""
+url: ""
+theme: jekyll-theme-cayman
+
+collections:
+  members:
+    output: true

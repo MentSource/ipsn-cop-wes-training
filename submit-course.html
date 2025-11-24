@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Submit Training Course</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="submit-page">
+
+
+  <header>
+    <div class="top-bar">
+      <div class="banner-text">
+        <h2>IPSN</h2>
+        <p>International<br>Pathogen<br>Surveillance<br>Network</p>
+      </div>
+
+      <div class="dna">
+        <div class="dna" id="dna"></div>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="nav-text">
+        <h3>Community Of Practice</h3>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION  -->
+  <section class="hero">
+    <h2>Wastewater and Environmental Surveillance Trainings</h2>
+
+    <div class="top-right">
+      <input type="search" id="global-search" placeholder="Search for a course"/>
+      <button id="mobile-menu" class="hamburger">☰</button>
+    </div>
+  </section>
+
+  <!-- FORM SECTION -->
+  <div class="form-container">
+    <h2>Submit Training Course</h2>
+
+    <form id="courseForm" enctype="multipart/form-data">
+      
+      <label for="title">Course Title</label>
+      <input type="text" id="title" name="course_title" placeholder="Include the course category" required />
+
+      <label for="organization">Organization</label>
+      <input type="text" id="organization" name="course_organization" required />
+
+      <label for="theme">Course Theme</label>
+      <select id="theme" name="course_theme" required>
+        <option value="">select theme</option>
+        <option>Technical</option>
+        <option>Policy-Focused</option>
+        <option>Communications</option>
+        <option>Others</option>
+      </select>
+
+      <label for="format">Course Format</label>
+      <select id="format" name="course_format" required>
+        <option value="">select format</option>
+        <option>Online</option>
+        <option>In-person</option>
+        <option>Hybrid</option>
+      </select>
+      
+      <label for="language">Language</label>
+      <input type="text" id="language" name="course_language" placeholder="e.g. English, Arabic" required />
+
+      <label for="accessibility">Accessibility</label>
+      <select id="accessibility" name="course_accessibility" required>
+        <option value="">select course accessibility</option>
+        <option>Free</option>
+        <option>Paid</option>
+      </select>
+
+      <label for="links">Links</label>
+      <textarea id="links" name="links" rows="3" placeholder="Add course links here..."></textarea>
+
+      <label for="pdfUpload">Upload a PDF</label>
+      <input type="file" id="pdfUpload" name="pdfUpload" accept=".pdf, .pptx" />
+      <button type="submit" class="primary-btn">Submit</button>
+    </form>
+  </div>
+
+  <!-- FOOTER (copied from index.html) -->
+  <footer> 
+    <div class="footer-bottom">
+      <a href="#" class="white-link">About Us</a>
+      <p>&copy; 2025 WES Trainings developed in collaboration with IPSN Community of Practice Members</p>
+      <div class="socials">
+        <a href="#" class="white-link">Clear Cache</a>
+        <a href="#">Contact Us: ... to submit a course</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

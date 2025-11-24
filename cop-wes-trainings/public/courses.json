@@ -1,0 +1,30 @@
+[
+  {
+    "format": "Asynchronous online",
+    "category": "Foundations of WES",
+    "title": "Wastewater Bioinformatics Training",
+    "organization": "Public Health Alliance for Genomic Epidemiology (PHA4GE)",
+    "link": "https://training.pha4ge.org/courses/wastewater-bioinformatics-training-course/"
+  },
+  {
+    "format": "In-person workshop",
+    "category": "Method & Protocols",
+    "title": "Sampling for Wastewater Surveillance",
+    "organization": "WHO & Partners",
+    "link": "#"
+  },
+  {
+    "format": "Online",
+    "category": "Data Systems & Analysis",
+    "title": "Bioinformatics in Wastewater Data Analysis",
+    "organization": "CDC Training Hub",
+    "link": "#"
+  },
+  {
+    "format": "Hybrid",
+    "category": "Metadata, Standards & Interoperability",
+    "title": "Metadata Harmonization for WES Projects",
+    "organization": "IPSN Community of Practice",
+    "link": "#"
+  }
+]
