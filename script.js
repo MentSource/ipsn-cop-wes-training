@@ -292,10 +292,13 @@ loadThemes();
         for (let r = 0; r < rows; r++) {
           const offset1 = Math.sin((c / cols) * Math.PI * 2) * 40;
           const y1 = r * spacingY + offset1 + spacingY / 2;
-          if (Math.random() > 0.6) continue; addDot(c * spacingX, y1);
+          if (Math.random() > 0.6) continue; 
+          addDot(c * spacingX, y1);
+          
           const offset2 = Math.sin((c / cols) * Math.PI * 2 + Math.PI) * 40;
           const y2 = r * spacingY + offset2 + spacingY / 2;
-          if (Math.random() > 0.6) continue; addDot(c * spacingX, y2);
+          if (Math.random() > 0.6) continue; 
+          addDot(c * spacingX, y2);
         }
       }
     }
